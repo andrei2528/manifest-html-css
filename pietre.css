@@ -1,0 +1,83 @@
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+#produs {
+    display: flex;
+}
+
+img {
+    margin: 2em;
+    border-radius: 7px;
+    height: 80%;
+    width: 80%;
+    border: 5px solid white;
+}
+
+#descriere {
+    margin-top: 1em;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+}
+
+#pret {
+    font-size: 2em;
+    color: #062D75;
+}
+
+#red {
+    font-size: 1.5em;
+    text-decoration: 3px line-through red;
+    font-weight: 700;
+}
+
+input {
+    width: 7em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    border: 3px solid #999;
+    background-color: white;
+    color: black;
+}
+
+label {
+    font-size: 2em;
+    margin: 1em;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    animation: none;
+}
+
+@media only screen and (max-width:800px) {
+    h1 {
+        margin-top: 3em!important;
+        font-size: 2.5em!important;
+        margin-right: 1em;
+        text-align: center!important;
+    }
+    img {
+        width: 45%!important;
+        height: 45%!important;
+    }
+    #descriere {
+        max-width: 11em!important;
+    }
+    #input {
+        width: 10%!important;
+        height: 1em!important;
+    }
+    #pret {
+        font-size: 1.6em!important;
+    }
+    #red {
+        font-size: 1em!important;
+    }
+    #input {
+        width: 6em !important;
+        height: 1.5em !important;
+    }
+}
